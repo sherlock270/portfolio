@@ -1,33 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background-color: #437f97;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #01295f;
+  color: white;
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.header a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.icons {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission {
+  width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.project {
+  width: 50%;
+  margin: 100px 20%;
   color: white;
+  background-color: #;
+  border: 1px solid #00f;
+  padding: 20px;
+  /* box-shadow: 1px 1px 1px 1px #00f; */
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.project a {
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top {
+  float: left;
+}
+
+.bottom {
+  float: right;
+}
+
+.headshot {
+  display: flex;
+  margin-top: 250px;
+}
+
+.headshot img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: auto;
+  border: 1px solid black;
 }
