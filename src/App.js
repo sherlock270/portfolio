@@ -5,6 +5,7 @@ import Headshot from './components/Headshot';
 import MissionStatement from './components/MissionStatement';
 import Project from './components/Project';
 import ContactForm from './components/ContactForm';
+import sveza from './assets/sveza.png';
 
 class App extends Component {
   render() {
@@ -16,7 +17,8 @@ class App extends Component {
         <Project
           title="Sveza"
           description="Capstone project. Super awesome"
-          link="sveza.app" />
+          link="sveza.app"
+          pic={sveza} />
         <Project
           title="Lambda Notes"
           description="Combination of front end and back end projects"
