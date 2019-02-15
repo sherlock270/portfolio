@@ -27,6 +27,16 @@ function Header(props) {
             <i className="fab fa-github-square"></i>
           </a>
         </Tooltip>
+        <Tooltip title="Email: crcortinas@gmail.com" classes={{ tooltip: classes.lightTooltip }}>
+          <a target="_blank" rel="noopener noreferrer" href="mailto:crcortinas@gmail.com">
+            <i className="fas fa-envelope"></i>
+          </a>
+        </Tooltip>
+        <Tooltip title="Phone: (512)695-8139" classes={{ tooltip: classes.lightTooltip }}>
+          <a target="_blank" rel="noopener noreferrer" href="tel:5126958139">
+            <i className="fas fa-mobile-alt"></i>
+          </a>
+        </Tooltip>
         <Tooltip title="Resume" classes={{ tooltip: classes.lightTooltip }}>
           <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1YARdWiLOZq0RQGvxi3bc4l4gkVmEHFfmMc_x0cBc1wc/edit?usp=sharing">
             <i className="fas fa-file-alt"></i>

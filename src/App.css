@@ -2,6 +2,13 @@ body {
   background-color: #437f97;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
   background-color: #01295f;
   color: white;
@@ -14,7 +21,12 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 100000;
+  z-index: 1000;
+}
+
+.header h1 {
+  font-size: 4rem;
+  margin: 10px;
 }
 
 .header a {
@@ -25,7 +37,7 @@ body {
 }
 
 .icons {
-  width: 20%;
+  width: 30%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -42,30 +54,31 @@ body {
 
 .project {
   width: 50%;
-  margin: 100px 20%;
-  color: white;
-  background-color: #;
-  border: 1px solid #00f;
+  margin: 0px auto;
+  color: black;
   padding: 20px;
-  /* box-shadow: 1px 1px 1px 1px #00f; */
   font-size: 18px;
 }
 
 .project a {
+  text-decoration: underline;
   color: inherit;
 }
 
-.top {
-  float: left;
-}
-
-.bottom {
-  float: right;
+.project p {
+  margin-bottom: 10px;
 }
 
 .headshot {
   display: flex;
-  margin-top: 250px;
+  margin: 250px auto 0px auto;
+  background-image: url('./assets/headshot.png');
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  border-radius: 150px;
+  background-size: cover;
+  border: 1px solid black;
 }
 
 .headshot img {
